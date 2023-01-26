@@ -22,7 +22,7 @@ function onInput(e) {
   if (inputCountry) {
     return fetchCountries(inputCountry)
       .then(data => {
-        console.log(data)
+       
         if (data.length === 1) {
         return markupCountry(data);
 
